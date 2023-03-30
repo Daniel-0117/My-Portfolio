@@ -1,0 +1,38 @@
+header {
+    padding: 30px;
+    background-color: rgb(90, 90, 90);
+    color:  whitesmoke;
+    text-align: end;
+    text-decoration: solid;
+    
+}
+
+a {
+    color: aqua;
+}
+
+h1 {
+    text-align: end;
+    font-size: 80px;
+}
+
+mark {
+    background-color: aqua;
+    color: grey;
+    position: absolute;
+    Right: 1625px;
+    top: 18px;
+    width: 300px;
+    height: 85px;
+}
+
+h2 {
+    text-align: start;
+    Padding
+
+}
+
+.aboutme {
+    padding: 40px;
+
+}
