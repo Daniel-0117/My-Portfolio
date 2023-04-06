@@ -1,38 +1,230 @@
+.wrap {
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+
 header {
-    padding: 30px;
+    padding: 30px; 
     background-color: rgb(90, 90, 90);
     color:  whitesmoke;
-    text-align: end;
+    text-align: start;
     text-decoration: solid;
-    
+}
+
+.subhead {
+    display: flex;
+    flex-wrap: wrap;
+
 }
 
 a {
     color: aqua;
+    display: block;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+  
+li {
+    float: right;
+    top: 0px;
+}
+  
+li a {
+    display: block;
+    color: aqua;
+    text-align: end;
+    padding: 20px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: #13007c;
+ }
 
 h1 {
     text-align: end;
-    font-size: 80px;
+    font-size: 100px;
 }
+
+h2 {
+    font-size: 40px;
+    color: darkcyan;
+    padding: 20px;
+    margin-bottom: solid 10px cyan;
+    text-align: center;
+    text-decoration: underline;
+    
+   
+} 
 
 mark {
     background-color: aqua;
     color: grey;
     position: absolute;
-    Right: 1625px;
-    top: 18px;
-    width: 300px;
+    Right: 1500px;
+    top: 13px;
+    width: 500px;
     height: 85px;
 }
 
-h2 {
-    text-align: start;
-    Padding
-
+.profilepic {
+    position: absolute;
+    left: 0px;
+    top: 116px;
+    
 }
 
-.aboutme {
-    padding: 40px;
+.para {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
+
+
+.footer {
+    display: block;
+    text-align: center;
+    background-color: rgb(90, 90, 90);
+}
+
+.info {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color: aqua;
+    font-size: 30px;
+
+}    
+
+
+.image {
+    position: relative;
+    left: 500px;
+    text-align: center; 
+    color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+ .image2 {
+    position: relative;
+    left: 100px;
+    text-align: center;
+    color: aqua;
+    object-fit: contain;
+    
+}
+
+.imageid {
+    position: absolute;
+    text-align: center;
+    bottom: -480px;
+    right: 1283px;
+    background-color: aqua;
+    color: rgb(90, 90, 90);
+    width: 120px;
+    height: 40px;
+}
+
+.imageidd {
+    position: absolute;
+    text-align: center; 
+    bottom: -780px;
+    right: 1683px; 
+    background-color: aqua;
+    color: black;
+    width: 120px;
+    height: 40px; 
+} 
+
+@media screen and (max-width: 992px) {
+   header {
+    flex-direction: column;
+    justify-content: center;
+    width: 992px;
+   }
+   .subhead {
+    width: auto;
+   }
+   section {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+   }
+
+   .image {
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+   }
+
+   .image2 {
+    flex-direction: column;
+    justify-content: center;
+    width: 25%;
+   }
+
+   .para {
+    flex-direction: column;
+    justify-content: center;
+   }
+
+
+
+   footer {
+    flex-direction: column;
+    justify-content: center;
+   }
+}
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        justify-content: center;
+        width: 768px;
+       }
+       
+       .subhead {
+        width: auto;
+       }
+
+       section {
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+       }
+    
+       .image {
+        flex-direction: column;
+        justify-content: center;
+        width: 50%;
+       }
+    
+       .image2 {
+        flex-direction: column;
+        justify-content: center;
+        width: 25%;
+       }
+    
+       .para {
+        flex-direction: column;
+        justify-content: center;
+       }
+    
+    
+    
+       footer {
+        flex-direction: column;
+        justify-content: center;
+       }
+    
 }
