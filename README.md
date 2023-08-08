@@ -24,15 +24,6 @@ This is a portfolio of all my projects
 
 - [Project requirements](#project-requirements)
 
-# HOME PAGE!
-![HOME PAGE]()
-
-# OTHER PAGE!
-![OTHER PAGE]()
-
-# OTHER OTHER PAGE!
-![OTHER OTHER PAGE]()
-
 
 ## Technologies used!
 We ended up using quite a few different things!
